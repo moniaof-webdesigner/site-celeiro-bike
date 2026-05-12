@@ -96,6 +96,26 @@
   strong {
     color: #FFD700;
   }
+
+  .btn-voltar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #FFD700;
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 28px;
+    clip-path: polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+    margin-bottom: 32px;
+    transition: opacity .2s;
+  }
+  .btn-voltar:hover { opacity: .85; }
+
 </style>
 </head>
 <body>
@@ -107,6 +127,7 @@
     <p>Celeiro Bike Shop — [seu-domínio-aqui]</p>
   </div>
   
+  <a href="index.html" class="btn-voltar">← Voltar para o Site</a>
   <div class="last-updated">
     <strong>Última atualização:</strong> 2026<br>
     <strong>Eficaz desde:</strong> 2026
