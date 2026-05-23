@@ -1076,6 +1076,7 @@ footer{background:#000;padding:56px var(--px) 32px;border-top:1px solid #1a1a1a}
   display:flex;justify-content:space-between;align-items:flex-end;
   gap:32px;margin-bottom:52px;
 }
+.cbrc-title-br{display:none}
 .cbrc-title{white-space:nowrap;margin-bottom:0}
 .cbrc-sub{
   font-size:16px;color:rgba(255,255,255,.65);
@@ -1254,6 +1255,7 @@ input[type=range].cbrc-range::-moz-range-thumb{
 
   /* Calculadora — título quebra em 2 linhas no mobile */
   .cbrc-title{white-space:normal !important}
+  .cbrc-title-br{display:inline !important}
 
   /* Calculadora — textos brancos */
   .cbrc-sub{font-size:16px !important}
@@ -1522,7 +1524,7 @@ input[type=range].cbrc-range::-moz-range-thumb{
 <section class="cbrc" id="calculadora">
   <div class="section-tag">Ferramenta Exclusiva</div>
   <div class="cbrc-head">
-    <h2 class="section-title cbrc-title">CALCULADORA DE <span>ROTAS ELÉTRICAS</span></h2>
+    <h2 class="section-title cbrc-title">CALCULADORA DE<span class="cbrc-title-br"><br></span> <span>ROTAS ELÉTRICAS</span></h2>
     <p class="cbrc-sub">Descubra quanto você economiza mudando sua rotina para uma E-Bike.</p>
   </div>
 
